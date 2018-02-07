@@ -1,0 +1,189 @@
+
+<!DOCTYPE>
+<html lang="en">
+ 
+<head>
+<title>Travel and Tourism</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+
+</head>
+
+<body background=Travel-and-Tourism.jpg>
+<div id="page">
+<div id="lgh"><div id="logo"><img src=logo.jpg height=110px width=130px align="middle" hspace="20">
+			<b>Travel and Tourism</b></div>
+
+<div id="nav">
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="login.html">Login</a></li>
+<li><a href="search.html">Search</a></li>
+<li><a href="help.html">Help</a></li>
+</ul>
+</div>
+</div>
+
+
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="tajmahal.jpg" style="width:100%;height:350px;">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="redfort.jpg" style="width:100%;height:350px;">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="amerfort.jpg" style="width:100%;height:350px;">
+  
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="cityplace.jpg" style="width:100%;height:350px;">
+  
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="indiagate.jpg" style="width:100%;height:350px;">
+  
+</div>
+<a class="prev" onclick="plusSlides(-1)"><</a>
+<a class="next" onclick="plusSlides(1)">></a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>  
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length} ;
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<div id="content">
+<h2>TAJ MAHAL</h2>
+<p>
+The Taj Mahal meaning Crown of the Palace is an ivory-white marble mausoleum on the south bank of the 
+Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan 
+(reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal. The tomb is the 
+centrepiece of a 17-hectare (42-acre)[5] complex, which includes a mosque and a guest house, and is set 
+in formal gardens bounded on three sides by a crenellated wall.
+
+<div id="nav"><ul> <li><a href="https://en.wikipedia.org/wiki/Taj_Mahal" target="_blank">read more</a></li> </div>
+
+Construction of the mausoleum was essentially completed in 1643 but work continued on other phases of the 
+project for another 10 years. The Taj Mahal complex is believed to have been completed in its entirety in 
+1653 at a cost estimated at the time to be around 32 million rupees, which in 2015 would be approximately 
+52.8 billion rupees (U.S. $827 million). The construction project employed some 20,000 artisans under the 
+guidance of a board of architects led by the court architect to the emperor, Ustad Ahmad Lahauri.
+
+</p>
+</div>
+                <div id="content">
+	<h2>CITY PALACE</h2>
+			<p>
+City Palace, Jaipur, which includes the Chandra Mahal and Mubarak Mahal palaces and 
+other buildings, is a palace complex in Jaipur, the capital of the Rajasthan state, India. It was 
+the seat of the Maharaja of Jaipur, the head of the Kachwaha Rajput clan. The Chandra Mahal palace now 
+houses a museum, but the greatest part of it is still a royal residence. The palace complex, located 
+northeast of the centre of the grid-patterned Jaipur city, incorporates an impressive and vast array of 
+courtyards, gardens and buildings. The palace was built between 1729 and 1732, initially by Sawai Jai Singh 
+II, the ruler of Amber. He planned and built the outer walls, and later additions were made by successive 
+rulers continuing up to the 20th century. The credit for the urban layout of the city and its structures is 
+attributed to two architects namely, Vidyadhar Bhattacharya, the chief architect in the royal court and Sir 
+Samuel Swinton Jacob, apart from the Sawai himself who was a keen architectural enthusiast. The architects 
+achieved a fusion of the Shilpa Shastra of Indian architecture with Rajput, and Mughal.
+<div id="nav"><ul> <li><a href="https://en.wikipedia.org/wiki/City_Palace,_Jaipur" target="_blank">read more</a></li> </div>
+<br>
+			</p>
+		</div>
+<div id="content">
+			<h2>AMER FORT</h2>
+			<p>
+			Amer Fort is a fort located in Amer, Rajasthan, India. Amer is a town with an area of 4 square kilometres (1.5 sq mi)[1] located 11 kilometres (6.8 mi) from Jaipur, the capital of Rajasthan. Located high on a hill, it is the principal tourist attraction in Jaipur.[2][3] The town of Amer was originally built by Meenas,[4] and later it was ruled by Raja Man Singh I (December 21, 1550 – July 6, 1614). Amer Fort is known for its artistic Hindu style elements. With its large ramparts and series of gates and cobbled paths, the fort overlooks Maota Lake,[3][5][6][7] which is the main source of water for the Amer Palace.
+
+Constructed of red sandstone and marble, the attractive, opulent palace is laid out on four levels, each with a courtyard. It consists of the Diwan-i-Aam, or "Hall of Public Audience", the Diwan-i-Khas, or "Hall of Private Audience", the Sheesh Mahal (mirror palace), or Jai Mandir, and the Sukh Niwas where a cool climate is artificially created by winds that blow over a water cascade within the palace. Hence, the Amer Fort is also popularly known as the Amer Palace.[5] The palace was the residence of the Rajput Maharajas and their families. At the entrance to the palace near the fort's Ganesh Gate, there is a temple dedicated to Shila Devi, a goddess of the Chaitanya cult, which was given to Raja Man Singh when he defeated the Raja of Jessore, Bengal in 1604. (Jessore is now in Bangladesh).[3][8][9]
+
+
+<div id="nav"><ul> <li><a href="https://www.travelogyindia.com/rajasthan/jaipur/amer-fort.html" target="_blank">read more</a></li> </div>
+<br> 
+			
+			</p>
+		</div>
+<div id="content">
+			<h2>RED FORT</h2>
+			<p>
+			The Lahori Gate is the main entrance to the Red Fort in Delhi. The fort is approached through a covered street flanked by arcaded apartments called the Chhatta Chowk. Situated on the western wall of the fort, the gate received its name because it led to the city of Lahore, in Punjab, Pakistan. The secondary entrance is the Delhi Gate.
+
+The gateway consists of three stories, each decorated with square, rectangular and cusped arched panels. These are flanked by semi-octagonal towers crowned by two open octagonal pavilions. The whole gate is clad in red sandstone, except the roofs of the pavilions, where white stone is used. Between the two pavilions is a screen of miniature chhatris having seven miniature marble domes. Continuing around the whole wall are flame-shaped battlements.
+
+The gate was provided with a 10.5 high metre barbican by Aurangzeb (1658-1707), with its entrance to the north.
+
+<div id="nav"><ul> <li><a href="http://www.delhitourism.gov.in/delhitourism/tourist_place/red_fort.jsp" target="_blank">read more</a></li> </div>
+<br> 
+			
+			</p>
+		</div>
+		<div id="footer">
+			<p>
+				Webpage made by <a href="/" target="_blank">sahil</a>
+			</p>
+		</div>
+
+
+
+<script type='text/javascript'>
+(function() {
+  var cx = '012699617894928577783:onluvhdnsva'; //iukcz8puk8k
+  var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+  gcse.src = (document.location.protocol == 'https' ? 'https:' : 'http:') +
+  '//www.google.com/cse/cse.js?cx=' + cx; 
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+})();</script>
+<div id="hj"><gcse:search></gcse:search></div>
+</div>
+
+</body>
+</html>
